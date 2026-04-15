@@ -1,0 +1,13 @@
+{
+  "email": "chinto@email.com",
+  "social": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/chinto"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/chinto"
+    }
+  ]
+}

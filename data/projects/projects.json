@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Portfolio Website",
+      "company": "Personal Project",
+      "description": "Personal portfolio built with Elysia and Bun",
+      "tags": ["HTML", "CSS", "JavaScript", "Elysia"],
+      "duration": "Jan 2024 - Mar 2024",
+      "link": "https://github.com"
+    },
+    {
+      "id": 2,
+      "title": "E-commerce App",
+      "company": "ABC Company",
+      "description": "Online shopping app with cart and checkout",
+      "tags": ["React", "Node.js"],
+      "duration": "Apr 2024 - Jun 2024",
+      "link": "https://github.com"
+    },
+    {
+      "id": 3,
+      "title": "Weather Dashboard",
+      "company": "XYZ Studio",
+      "description": "Real-time weather app using OpenWeather API",
+      "tags": ["JavaScript", "API"],
+      "duration": "Jul 2023 - Sep 2023",
+      "link": "https://github.com"
+    }
+  ]
+}

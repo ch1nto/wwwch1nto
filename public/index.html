@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chinto Patum</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-black dark:bg-zinc-950 dark:text-white transition-colors duration-300">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 right-0 z-50 border-b border-zinc-200 dark:border-zinc-800 bg-white/80 dark:bg-zinc-950/80 backdrop-blur-sm">
+    <div class="max-w-3xl mx-auto px-6 py-4 flex justify-between items-center">
+      <span class="font-medium text-sm">Chinto Patum</span>
+      <div class="flex items-center gap-6">
+        <a href="#projects" class="text-sm text-zinc-500 hover:text-black dark:hover:text-white transition-colors">Projects</a>
+        <a href="#about" class="text-sm text-zinc-500 hover:text-black dark:hover:text-white transition-colors">About</a>
+        <a href="#contact" class="text-sm text-zinc-500 hover:text-black dark:hover:text-white transition-colors">Contact</a>
+        <button id="themeToggle" class="text-sm text-zinc-500 hover:text-black dark:hover:text-white transition-colors">Light</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="min-h-screen flex items-center">
+    <div class="max-w-3xl mx-auto px-6">
+      <p class="text-sm text-zinc-500 mb-2" id="hero-role"></p>
+      <h1 class="text-4xl font-medium mb-4" id="hero-name"></h1>
+      <p class="text-zinc-500 max-w-md" id="hero-bio"></p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-24 border-t border-zinc-200 dark:border-zinc-800">
+    <div class="max-w-3xl mx-auto px-6">
+      <p class="text-sm text-zinc-500 mb-12">Selected Projects</p>
+      <div id="projects-list" class="flex flex-col gap-8"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-24 border-t border-zinc-200 dark:border-zinc-800">
+    <div class="max-w-3xl mx-auto px-6">
+      <p class="text-sm text-zinc-500 mb-12">About</p>
+      <div id="about-content"></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-24 border-t border-zinc-200 dark:border-zinc-800">
+    <div class="max-w-3xl mx-auto px-6">
+      <p class="text-sm text-zinc-500 mb-12">Contact</p>
+      <div id="contact-content"></div>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+  <script src="js/hero.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/about.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

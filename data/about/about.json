@@ -1,0 +1,30 @@
+{
+  "introduction": {
+    "description": "I'm a Full-stack Developer who loves building clean and functional web applications. Passionate about learning new technologies and creating great user experiences."
+  },
+  "experience": [
+    {
+      "company": "ABC Company",
+      "role": "Frontend Developer",
+      "duration": "2023 - Present"
+    },
+    {
+      "company": "XYZ Studio",
+      "role": "Junior Developer",
+      "duration": "2022 - 2023"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Developer Award",
+      "organization": "ABC Company",
+      "year": "2023"
+    },
+    {
+      "title": "Hackathon Winner",
+      "organization": "XYZ Studio",
+      "year": "2022"
+    }
+  ],
+  "skills": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Node.js", "Elysia", "Bun"]
+}

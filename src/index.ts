@@ -1,6 +1,8 @@
 import { Elysia } from "elysia";
+import { staticPlugin } from "@elysiajs/static";
 
 const app = new Elysia()
+  .use(staticPlugin({ assets: "public", prefix: "" }))
   .get("/api/hero", () => {
     return Bun.file("data/hero/hero.json").json();
   })
@@ -12,9 +14,6 @@ const app = new Elysia()
   })
   .get("/api/contact", () => {
     return Bun.file("data/contact/contact.json").json();
-  })
-  .get("/public", () => {
-    return Bun.file("public/index.html").text();
   })
   .listen(3000);
 
